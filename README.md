@@ -51,10 +51,10 @@ python logger.py
 
 ## AV detection
 ![](src/AV.png)
-## Media
 
+![](src/1.png)
 
-![](src/v3.png)
+![](src/2.png)
 
 ***
  ## [+] Find Me on :
