@@ -57,7 +57,6 @@ python logger.py
 ![](src/2.png)
 
 ***
- ## [+] Find Me on :
 <h4> Abdulrahman Mohammed </h4>
   <a href="https://t.me/De3vil_3">
      <img src="https://img.shields.io/badge/De3vil__3-blue?style=for-the-badge&logo=Telegram&logoColor=00AEFF&labelColor=black&color=black">
