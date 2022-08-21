@@ -54,8 +54,6 @@ python logger.py
 
 ![](src/1.png)
 
-![](src/2.png)
-
 ***
 <h4> Abdulrahman Mohammed </h4>
   <a href="https://t.me/De3vil_3">
