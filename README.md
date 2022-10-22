@@ -1,7 +1,7 @@
 <h1 align="center">
   <br>
   <br>
-  K🔑Logger v0.2
+  K🔑Logger v3.0.0
   <br>  
 </h1>
 
