@@ -20,6 +20,8 @@ Remote persistent 🔑Logger for Windows and Linux
 - upload reports in [anonfile](https://anonfiles.com/).
 - Works with Linux and Windows.
 - Does not require root or admin privlages.
+### All previous problems have been resolved
+### It is still undetectable
 #### Requirements
 * python >= 3.8 ++ Download [Python](https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe)
 * os : Windows
