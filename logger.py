@@ -5,6 +5,7 @@
 from Utils.generator import build_t
 from Utils.banne_r import banner ,G,R,B,X,Q,WI , Y , BOOLD , F,res,bl
 from shutil import rmtree
+import os
 from os import system , name , remove
 if name =="nt":
 	system("cls")
@@ -106,42 +107,3 @@ class EngyRun:
 x=EngyRun()
 x.choose()
 
-# enjoy_my_art()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# from login import I_see_u
-# x = I_see_u("5488fb783ac7ac94")
-# x.Run()
-# login.send_mega_req(token="5488fb783ac7ac94")
-
-# login.Run()
