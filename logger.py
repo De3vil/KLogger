@@ -38,7 +38,7 @@ class EngyRun:
 		self.icon = self.colored_input(X+f"Set Your icon File",spaces=12)
 		system(f"pyinstaller --onefile --noconsole --icon={self.icon} {self.filenampackeg}")
 		self.rem_ove()					 		  
-	def CompilinG_Linux():
+	def CompilinG_Linux(self):
 		pyinstaller_path = os.path.expanduser('~/.wine/drive_c/users/root/AppData/Local/Programs/Python/Python38-32/Scripts/pyinstaller.exe')
 		compile_command = ["wine", pyinstaller_path, "--onefile", "--noconsole", self.filenampack]
 		call(compile_command)
