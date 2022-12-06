@@ -1,3 +1,4 @@
 pyinstaller
 pynput==1.7.6
 requests==2.28.1
+colored
