@@ -40,13 +40,13 @@ class EngyRun:
 		self.rem_ove()					 		  
 	def CompilinG_Linux(self):
 		pyinstaller_path = os.path.expanduser('~/.wine/drive_c/users/root/AppData/Local/Programs/Python/Python38-32/Scripts/pyinstaller.exe')
-		compile_command = ["wine", pyinstaller_path, "--onefile", "--noconsole", self.filenampack]
+		compile_command = ["wine", pyinstaller_path, "--onefile", "--noconsole", self.filenampackeg]
 		call(compile_command)
 		self.rem_ove()
 		system("clear")
 	def CompilinG_Linux_icon(self):
 			pyinstaller_path = os.path.expanduser('~/.wine/drive_c/users/root/AppData/Local/Programs/Python/Python38-32/Scripts/pyinstaller.exe')
-			compile_command = ["wine", pyinstaller_path, "--onefile", "--noconsole" ,"--icon="+str(self.icon), self.filenampack]
+			compile_command = ["wine", pyinstaller_path, "--onefile", "--noconsole" ,"--icon="+str(self.icon), self.filenampackeg]
 			call(compile_command)
 			self.rem_ove()
 			system("clear")			   
