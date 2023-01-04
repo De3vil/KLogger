@@ -6,6 +6,7 @@ from Utils.generator import build_t
 from Utils.banne_r import banner ,G,R,B,X,Q,WI , Y , BOOLD , F,res,bl
 from shutil import rmtree
 import os
+from subprocess import call
 from os import system , name , remove
 if name =="nt":
 	system("cls")
