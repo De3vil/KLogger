@@ -22,7 +22,7 @@ class EngyRun:
 		global filenampackeg
 		try:
 			self.file 	 = self.filenampackeg.split(".")[-2]
-			self.spfile  = self.file+".spec"
+			self.spfile  	 = self.file+".spec"
 			self.rm_fl 	 = remove(self.filenampackeg)
 			self.rm_fl 	 = remove(self.spfile)
 			rmtree("__pycache__", ignore_errors=True)
@@ -47,7 +47,7 @@ class EngyRun:
 		system("clear")
 	def CompilinG_Linux_icon(self):
 			pyinstaller_path = os.path.expanduser('~/.wine/drive_c/users/root/AppData/Local/Programs/Python/Python38-32/Scripts/pyinstaller.exe')
-			compile_command = ["wine", pyinstaller_path, "--onefile", "--noconsole" ,"--icon=+str"(self.icon), self.filenampackeg]
+			compile_command = ["wine", pyinstaller_path, "--onefile", "--noconsole" ,"--icon="+str(self.icon), self.filenampackeg]
 			call(compile_command)
 			self.rem_ove()
 			system("clear")			   
